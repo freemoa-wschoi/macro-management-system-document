@@ -61,7 +61,7 @@ testng 를 통해 병렬처리를 지원합니다.
 #### Requirements:
 - java 11
 - Maven
-- testNg
+- testng
 
 #### Command:
 ```shell
