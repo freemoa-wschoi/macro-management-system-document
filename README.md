@@ -19,7 +19,7 @@
 
 ## System Architecture
 
-MACRO MANAGEMENT SYSTEM은 크게 아래와 같은 구성요소로 되어 있습니다.
+`MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
 1. [Selenium Hub](#Selenium-Hub)
 2. [Macro](#Macro)
 3. [DB SERVER](#DB-SERVER)
