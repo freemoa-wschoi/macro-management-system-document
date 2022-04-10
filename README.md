@@ -33,7 +33,6 @@ EC2 인스턴스에서 hub와 node 를 띄워놓으면 매크로를 돌릴 수 �
 
 #### Requirements:
 - java 11
-- Maven
 - selenium-server-standalone-2.49.1.jar
 - Chrome
 - Chrome Driver
