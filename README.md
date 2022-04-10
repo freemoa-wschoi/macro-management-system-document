@@ -18,7 +18,7 @@
 | 1 | 2022-04-10 | 첫 문서 작성, 시스템 구성도 및 사용자 설명 내용 추가 |
 
 ## System Architecture
-> ![IMAGE1](./images/system_architecture.png)  
+![IMAGE1](./images/system_architecture.png)  
 
 `MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
 1. [Selenium Hub](#1-Selenium-Hub)
