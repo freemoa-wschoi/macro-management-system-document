@@ -7,7 +7,7 @@
 ## 개요
 본 프로젝트를 통해 개발한 서비스를 `MACRO MANAGEMENT SYSTEM`으로 칭하도록 하겠습니다.
 
-본 문서는 시스템 구성 및 사용자 설명서를 포함합니다.
+본 문서는 시스템 개발 내용을 설명합니다.
 
 ## 📑 Revision History Of Document
 
