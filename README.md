@@ -168,6 +168,7 @@ SEARCH API LIST
         - 상점 ID (eq 검색)
 
 ## 5. FRONT SERVER
+[사이트 보기](http://ec2-3-37-128-200.ap-northeast-2.compute.amazonaws.com/)
 관리자 UI 를 제공합니다.  
 
 해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
