@@ -181,6 +181,7 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 
 #### Requirements:
 - node 16
+- vue 2.6
 
 > ![IMAGE1](./images/task_ui.gif)
 #### Features
