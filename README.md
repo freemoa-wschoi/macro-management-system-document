@@ -332,6 +332,10 @@ alter table task
 - maven
 - spring boot 2.6.6
 
+#### Command:
+```shell
+nohup java -jar -Duser.timezone=Asia/seoul -Dspring.profiles.active=dev ./macro-admin-backend-0.0.1-SNAPSHOT.jar &
+```
 
 **REST API LIST**
 ```json
