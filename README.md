@@ -20,13 +20,13 @@
 ## System Architecture
 
 `MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
-1. [Selenium Hub](#Selenium-Hub)
-2. [Macro](#Macro)
-3. [DB SERVER](#DB-SERVER)
-4. [API SERVER](#API-SERVER)
-5. [FRONT SERVER](#FRONT-SERVER)
+1. [Selenium Hub](#1.-Selenium-Hub)
+2. [Macro](#2.-Macro)
+3. [DB SERVER](#3.-DB)
+4. [API SERVER](#4.-API-SERVER)
+5. [FRONT SERVER](#5.-FRONT-SERVER)
 
-### Selenium Hub
+## 1. Selenium Hub
 메인 hub 에서 각 node 로 병렬 처리를 지원합니다.
 EC2 인스턴스에서 hub와 node 를 띄워놓으면 매크로를 돌릴 수 있습니다.
 
@@ -51,7 +51,7 @@ localhost:4444 로 접속하면 떠있는 노드를 확인 할 수 있습니다.
 > ![IMAGE1](./images/grid_console.png)
 위와 같이 정상적으로 셋팅이 완료되면 매크로를 실행할 준비가 완료 되었습니다.
 
-### Macro
+## 2. Macro
 특정한 키워드를 검색하여 타겟에 트래픽을 전달합니다.  
 testng 를 통해 병렬처리를 지원합니다.  
 해당 프로세스는 죽이지 않는한 계속 반복됩니다.  
@@ -87,7 +87,7 @@ testng.xml
 ```
 testng.xml 을 통해 설정을 할 수 있습니다.
 
-### DB
+## 3. DB
 DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 
 #### Schema
@@ -105,7 +105,7 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 | 6 | cookie_history | 작업 이력 관리 테이블 |
 
 
-### API SERVER
+## 4. API SERVER
 봇의 쿠키 분배 처리 등 비즈니스 API,  
 각 리소스에 대한 REST API,   
 검색 API 를 제공합니다. 
@@ -167,7 +167,7 @@ SEARCH API LIST
     - 작업 이력 검색을 지원합니다.
         - 상점 ID (eq 검색)
 
-### FRONT SERVER
+## 5. FRONT SERVER
 관리자 UI 를 제공합니다.  
 
 해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
