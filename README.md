@@ -27,7 +27,7 @@
 5. [FRONT SERVER](#5.-FRONT-SERVER)
 
 ## 1. Selenium Hub
-메인 hub 에서 각 node 로 병렬 처리를 지원합니다.
+메인 hub 에서 각 node 로 병렬 처리를 지원합니다.  
 EC2 인스턴스에서 hub와 node 를 띄워놓으면 매크로를 돌릴 수 있습니다.
 
 #### Requirements:
