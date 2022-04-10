@@ -52,9 +52,11 @@ localhost:4444 로 접속하면 떠있는 노드를 확인 할 수 있습니다.
 위와 같이 정상적으로 셋팅이 완료되면 매크로를 실행할 준비가 완료 되었습니다.
 
 ### Macro
-특정한 키워드를 검색하여 타겟에 트래픽을 전달합니다.
-testng 를 통해 병렬처리를 지원합니다.
-해당 프로세스는 죽이지 않는한 계속 반복됩니다.
+특정한 키워드를 검색하여 타겟에 트래픽을 전달합니다.  
+testng 를 통해 병렬처리를 지원합니다.  
+해당 프로세스는 죽이지 않는한 계속 반복됩니다.  
+
+해당 프로세스는 aws ec2 windows 인스턴스 내에서 실행됩니다.
 
 #### Requirements:
 - java 11
@@ -105,8 +107,10 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 
 ### API SERVER
 봇의 쿠키 분배 처리 등 비즈니스 API,  
-각 리소스에 대한 REST API,  
-검색 API 를 제공합니다.
+각 리소스에 대한 REST API,   
+검색 API 를 제공합니다. 
+
+해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
 
 REST API LIST
 ```json
@@ -164,7 +168,9 @@ SEARCH API LIST
         - 상점 ID (eq 검색)
 
 ### FRONT SERVER
-관리자 UI 를 제공합니다.
+관리자 UI 를 제공합니다.  
+
+해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
 
 > ![IMAGE1](./images/task_ui.gif)
 #### Features
