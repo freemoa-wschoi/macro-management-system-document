@@ -48,7 +48,7 @@ java -Dwebdriver.chrome.driver="{{chrome_driver_path}}" -jar selenium-server-sta
 ```
 #### Console:
 localhost:4444 로 접속하면 떠있는 노드를 확인 할 수 있습니다.  
-<kdb>![IMAGE1](./images/grid_console.png)</kdb>
+> ![IMAGE1](./images/grid_console.png)
 위와 같이 정상적으로 셋팅이 완료되면 매크로를 실행할 준비가 완료 되었습니다.
 
 ### Macro
