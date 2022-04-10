@@ -1,5 +1,5 @@
 # MACRO MANAGEMENT SYSTEM
-[프리모아](https://www.freemoa.net/)를 통해 진행한 외주 개발 프로젝트의 개발 보고서입니다.
+본 문서는 [프리모아](https://www.freemoa.net/)를 통해 진행한 외주 개발 프로젝트의 개발 보고서입니다.
 
 - [해당 프로젝트 공고](https://www.freemoa.net/m4/s41?page=1&sS=%EC%82%AC%EB%82%B4%EC%9A%A9+%EB%84%A4%EC%9D%B4%EB%B2%84+%EA%B2%80%EC%83%89+%EB%A7%A4%ED%81%AC%EB%A1%9C+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8+%EA%B0%9C%EB%B0%9C&pno=41244&first_pno=41244)
 
@@ -22,7 +22,7 @@
 `MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
 1. [Selenium Hub](#Selenium-Hub)
 2. [Macro](#Macro)
-3. [DB SERVER](#DB)
+3. [DB SERVER](#DB-SERVER)
 4. [API SERVER](#API-SERVER)
 5. [FRONT SERVER](#FRONT-SERVER)
 
@@ -91,7 +91,7 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 #### Schema
 2022-04-10 기준 현재 스키마는 아래와 같습니다.
 (추후 변경 가능성 있음)
-<kdb>![IMAGE1](./images/db.png)</kdb>
+> ![IMAGE1](./images/db.png)
 
 | No. | Table. | Description |
 |:---:|:---|:---:|
@@ -166,7 +166,7 @@ SEARCH API LIST
 ### FRONT SERVER
 관리자 UI 를 제공합니다.
 
-<kdb>![IMAGE1](./images/task_ui.gif)</kdb>
+> ![IMAGE1](./images/task_ui.gif)
 #### Features
 **작업 관리 페이지**
 - 작업 관리 기능
@@ -180,7 +180,7 @@ SEARCH API LIST
 
 <br />
 
-<kdb>![IMAGE1](./images/keyword_ui.gif)</kdb>
+> ![IMAGE1](./images/keyword_ui.gif)
 #### Features
 **검색어 관리 페이지**
 - 검색어 추가 기능
@@ -190,7 +190,7 @@ SEARCH API LIST
 
 <br />
 
-<kdb>![IMAGE1](./images/history_ui.gif)</kdb>
+> ![IMAGE1](./images/history_ui.gif)
 #### Features
 **작업 이력 페이지**
 - 페이징 기능
