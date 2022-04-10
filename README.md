@@ -7,7 +7,7 @@
 ## 개요
 본 문서에서는 위 프로젝트를 통해 개발한 서비스를 `MACRO MANAGEMENT SYSTEM`으로 호칭합니다.
 
-본 문서는 시스템 개발 내용을 설명합니다.
+본 문서는 시스템 구축 내용을 설명합니다.
 
 ## 📑 Revision History Of Document
 
