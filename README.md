@@ -48,7 +48,7 @@ java -Dwebdriver.chrome.driver="{{chrome_driver_path}}" -jar selenium-server-sta
 ```
 #### Console:
 localhost:4444 로 접속하면 떠있는 노드를 확인 할 수 있습니다.  
-![IMAGE1](./images/grid_console.png)
+<kdb>![IMAGE1](./images/grid_console.png)</kdb>
 위와 같이 정상적으로 셋팅이 완료되면 매크로를 실행할 준비가 완료 되었습니다.
 
 ### Macro
@@ -91,7 +91,7 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 #### Schema
 2022-04-10 기준 현재 스키마는 아래와 같습니다.
 (추후 변경 가능성 있음)
-![IMAGE1](./images/db.png)
+<kdb>![IMAGE1](./images/db.png)</kdb>
 
 | No. | Table. | Description |
 |:---:|:---|:---:|
@@ -166,7 +166,7 @@ SEARCH API LIST
 ### FRONT SERVER
 관리자 UI 를 제공합니다.
 
-![IMAGE1](./images/task_ui.gif)
+<kdb>![IMAGE1](./images/task_ui.gif)</kdb>
 #### Features
 **작업 관리 페이지**
 - 작업 관리 기능
@@ -180,7 +180,7 @@ SEARCH API LIST
 
 <br />
 
-![IMAGE1](./images/keyword_ui.gif)
+<kdb>![IMAGE1](./images/keyword_ui.gif)</kdb>
 #### Features
 **검색어 관리 페이지**
 - 검색어 추가 기능
@@ -190,7 +190,7 @@ SEARCH API LIST
 
 <br />
 
-![IMAGE1](./images/history_ui.gif)
+<kdb>![IMAGE1](./images/history_ui.gif)</kdb>
 #### Features
 **작업 이력 페이지**
 - 페이징 기능
