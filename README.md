@@ -20,11 +20,11 @@
 ## System Architecture
 
 `MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
-1. [Selenium Hub](#1.-Selenium-Hub)
-2. [Macro](#2.-Macro)
-3. [DB SERVER](#3.-DB)
-4. [API SERVER](#4.-API-SERVER)
-5. [FRONT SERVER](#5.-FRONT-SERVER)
+1. [Selenium Hub](#1-Selenium-Hub)
+2. [Macro](#2-Macro)
+3. [DB SERVER](#3-DB)
+4. [API SERVER](#4-API-SERVER)
+5. [FRONT SERVER](#5-FRONT-SERVER)
 
 ## 1. Selenium Hub
 메인 hub 에서 각 node 로 병렬 처리를 지원합니다.  
