@@ -22,7 +22,7 @@
 `MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
 1. [Selenium Hub](#Selenium-Hub)
 2. [Macro](#Macro)
-3. [DB SERVER](#DB-SERVER)
+3. [DB SERVER](#DB)
 4. [API SERVER](#API-SERVER)
 5. [FRONT SERVER](#FRONT-SERVER)
 
@@ -85,7 +85,7 @@ testng.xml
 ```
 testng.xml 을 통해 설정을 할 수 있습니다.
 
-### DB SERVER
+### DB
 DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 
 #### Schema
