@@ -112,6 +112,12 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 
 해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
 
+#### Requirements:
+- java 11
+- maven
+- spring boot 2.6.6
+
+
 **REST API LIST**
 ```json
 {
@@ -172,6 +178,9 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 관리자 UI 를 제공합니다.  
 
 해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
+
+#### Requirements:
+- node 16
 
 > ![IMAGE1](./images/task_ui.gif)
 #### Features
