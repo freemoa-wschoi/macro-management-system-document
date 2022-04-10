@@ -113,7 +113,7 @@ DB 는 mysql 을 사용하며 aws 를 통해 운영됩니다.
 
 해당 서버는 aws ec2 ubuntu 인스턴스에서 실행됩니다.
 
-REST API LIST
+**REST API LIST**
 ```json
 {
   "_links" : {
@@ -148,7 +148,7 @@ REST API LIST
 }
 ```
 
-BUSINESS API LIST
+**BUSINESS API LIST**
 - GET /checkRunnable?{taskId}
     - 해당 task 가 실행 할 수 있는지 true, false 반환해줍니다.
 - GET /cookie/runnable?{taskId}
@@ -156,7 +156,7 @@ BUSINESS API LIST
 - POST /task/logging?{taskId,cookieId}
     - 작업이 끝나면 작업 이력 로깅을 처리합니다.
 
-SEARCH API LIST
+**SEARCH API LIST**
 - POST /search/task
     - 작업 검색을 지원합니다.
         - 상점명 (like 검색)
