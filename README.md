@@ -21,13 +21,13 @@
 ![IMAGE1](./images/system_architecture.png)  
 
 `MACRO MANAGEMENT SYSTEM`은 크게 아래와 같은 구성요소로 되어 있습니다.
-1. [Selenium Hub](#1-Selenium-Hub)
+1. [Selenium Grid](#1-Selenium-Grid)
 2. [Macro](#2-Macro)
 3. [DB](#3-DB)
 4. [API SERVER](#4-API-SERVER)
 5. [FRONT SERVER](#5-FRONT-SERVER)
 
-## 1. Selenium Hub
+## 1. Selenium Grid
 메인 hub 에서 각 node 로 병렬 처리를 지원합니다.  
 EC2 인스턴스에서 hub와 node 를 띄워놓으면 매크로를 돌릴 수 있습니다.
 
