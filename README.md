@@ -121,8 +121,7 @@ public class MacroRunner extends AbstractTestNGSpringContextTests {
     private ApiProvider apiProvider;
 
     @Test
-    void test1() {
-        // macro_hub_01: Give-Health
+    void test1() {       
         Long taskId = 1L;
         run(taskId);
     }
@@ -130,8 +129,6 @@ public class MacroRunner extends AbstractTestNGSpringContextTests {
     @Test
     void test2() {
         Time.sleep(10000L);
-
-        // macro_hub_01: 리브레오
         Long taskId = 2L;
         run(taskId);
     }
@@ -139,8 +136,6 @@ public class MacroRunner extends AbstractTestNGSpringContextTests {
     @Test
     void test3() {
         Time.sleep(15000L);
-
-        // macro_hub_01: 비루비락
         Long taskId = 3L;
         run(taskId);
     }
@@ -148,8 +143,6 @@ public class MacroRunner extends AbstractTestNGSpringContextTests {
     @Test
     void test4() {
         Time.sleep(20000L);
-
-        // macro_hub_01: 비비드베르
         Long taskId = 4L;
         run(taskId);
     }
@@ -157,8 +150,6 @@ public class MacroRunner extends AbstractTestNGSpringContextTests {
     @Test
     void test5() {
         Time.sleep(25000L);
-
-        // macro_hub_01: 클로젯유앤미
         Long taskId = 5L;
         run(taskId);
     }
