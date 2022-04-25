@@ -102,9 +102,7 @@ testng.xml
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite    name="All Test Suite" parallel="methods" thread-count="5">
     <test name="Test1">
-        <classes>
-            <class name="com.ourstory.macro.MacroRunner"/>
-        </classes>
+        ...
     </test>
 </suite>
 ```
