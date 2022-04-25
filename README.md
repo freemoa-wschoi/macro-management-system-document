@@ -155,37 +155,7 @@ public class MacroRunner extends AbstractTestNGSpringContextTests {
     }
 
     private void run(Long taskId) {
-        while (true) {
-            log.info("start!");
-            try {
-                boolean isRunnable = apiProvider.checkRunnable(Collections.singletonMap("taskId", taskId));
-                if (isRunnable) {
-                    var task = apiProvider.findTaskById(taskId);
-                    var cookieInfo = apiProvider.getUnUsedCookieByTaskId(Collections.singletonMap("taskId", taskId));
-                    log.info("cookieInfo : {}", cookieInfo);
-
-                    final TargetInfo targetInfo = TargetInfo.builder()
-                            .keyword(task.getSearchKeyword())
-                            .cookieDir("user-data-dir=" + cookieInfo.getDir())
-                            .productCode(task.getProductCode())
-                            .storeCode(task.getStoreCode())
-                            .storeName(task.getStoreName())
-                            .optionCode(task.getOptionCode())
-                            .build();
-
-                    Bot bot = new Bot(targetInfo);
-                    bot.run();
-
-                    apiProvider.loggingCookieHistory(taskId, cookieInfo.getCookieId());
-                }
-
-            } catch (Exception e) {
-                e.printStackTrace();;
-
-            } finally {
-                Time.sleep(DEFAULT_TERM);
-            }
-        }
+        ...
     }
 }
 ```
